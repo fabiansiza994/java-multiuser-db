@@ -6,5 +6,4 @@ import java.util.List;
 
 public interface ClientService {
     List<User> list() throws InterruptedException;
-    User findByUsername(String username);
 }
